@@ -19,6 +19,12 @@ export default function StateFunction( {hungryGuy} ) {
         };
     }, [a]);
 
+    useEffect(() => {
+        return () => {
+            console.log('run once')
+        };
+    }, []);
+
     function computeExpensiveValue(a) {
         let b = 0;
         for (let i = 0; i < 100000; i++) {
