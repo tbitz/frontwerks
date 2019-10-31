@@ -57,12 +57,13 @@ export default function StateFunction( {hungryGuy} ) {
             <div>
                 <h1>StateFunction:</h1>
                 <p>{message} </p>
-                <p>Memoized Value: {memoizedValue}</p>
-                <p>This is a: {a}</p>
-
                 <button onClick={() => eat(hungryGuy)}>
                     Yes, eat an {fruit.name} ({fruit.supply})
                 </button>
+                <p>Memoized Value: {memoizedValue}</p>
+                <p>a is: {a}</p>
+
+
             </div>
         )
     }

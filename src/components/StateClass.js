@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 // stateless functional component
 export class StateClass extends Component {
+
     fruit = {
         name: 'Apple',
         supply: 3
